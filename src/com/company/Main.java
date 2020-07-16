@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Host Name: "+ip.getHostName());
 
         //getHostAddress() : it returns the IP address in string format.
-        //getHostAddress() :تقو بارجاع الايبي الخاص بالعنوان التي تم وضعه في المتغير سترينغ
+        //getHostAddress() :تقو بارجاع الايبي الخاص بالعنوان التي تم وضعه في شكل سترينغ
         System.out.println("IP Address: "+ip.getHostAddress());
 
     }

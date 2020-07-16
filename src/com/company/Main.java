@@ -1,17 +1,18 @@
 package com.company;
-import java.io.*;
 import java.net.*;
 
 public class Main {
 
     public static void main(String[] args) throws UnknownHostException {
-	// write your code here
+        // write your code here
 
-            InetAddress ip=InetAddress.getByName("www.javatpoint.com");
+        InetAddress ip=InetAddress.getByName("activity.qou.edu");
 
-            System.out.println("Host Name: "+ip.getHostName());
-            System.out.println("IP Address: "+ip.getHostAddress());
+        //getHostName() : it returns the host name of the IP address.
+        System.out.println("Host Name: "+ip.getHostName());
 
+        //getHostAddress() : it returns the IP address in string format.
+        System.out.println("IP Address: "+ip.getHostAddress());
 
     }
 }
